@@ -15,3 +15,133 @@ header .logo{
     justify-content: space-between;
     align-items: center;
 }
+.container nav ul{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.container nav ul li{
+    list-style: none;
+    margin-left: 28px;
+}
+.container nav ul li:first-of-type{
+    margin-left: 0;
+}
+.container nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+.container #h_navigation{
+    display: inline-flex;
+    align-items: center;
+}
+.container #h_navigation li{
+    list-style: none;
+    margin-left: 27px;
+}
+.container #h_navigation li a{
+    width: 100%;
+    display: block;
+}
+
+/*Main banner*/
+
+.main_banner{
+    background-color: #F0EFEB;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+}
+.main_banner .container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+}
+.main_banner .container article{
+    max-width: 544px;
+    height: 374px;
+}
+.main_banner .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 46px;
+    max-width: 534px;
+}
+.main_banner .container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 481px;
+    margin-bottom: 26px;
+}
+.main_banner .container a{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 23px 9px 23px;
+}
+.main_banner .container img{
+    position: absolute;
+    right: 7%;
+    top: 8px;
+    width: 599px;
+    height: 521px;
+}
+
+/*Guides*/
+
+.guides{
+    background-color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 87px;
+}
+.guides .container{
+    max-width: 1064px;
+    height: 209px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.guides .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.guides .container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+}
+.guides .container a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 88px;
+}
