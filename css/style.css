@@ -143,5 +143,125 @@ header .logo{
     line-height: 23px;
     text-decoration: none;
     color: #000000;
-    margin-bottom: 88px;
+
+}
+
+/*Best sellers*/
+
+.best_sellers {
+    padding-bottom: 189px;
+}
+.best_sellers .container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.best_sellers .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.best_sellers .description{
+    max-width: 1124px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.best_sellers .description article{
+    text-align: center;
+}
+.best_sellers .description h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+    margin-left: 110px;
+}
+.best_sellers .description img:nth-child(1) {
+    margin-bottom: 27px;
+    max-width: 309px;
+    margin-left: 30px;
+}
+.best_sellers .description img:nth-child(2) {
+    margin-bottom: 20px;
+    margin-left: 63px;
+    max-width: 314px;
+}
+.best_sellers .description img:nth-child(3) {
+    margin-bottom: 19px;
+    margin-left: 60px;
+    max-width: 315px;
+}
+.best_sellers .description h4:nth-child(1) {
+    width: 156px;
+}
+.best_sellers .description h4:nth-child(2) {
+    width: 151px;
+}
+.best_sellers .description h4:nth-child(3) {
+    width: 164px;
+}
+.best_sellers .description p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.best_sellers .description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 59px;
+}
+.best_sellers .description .owl-nav .owl-prev {
+    position: absolute;
+    top: 35%;
+    left: -55px;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Caret_left_font_awesome.svg");
+}
+.best_sellers .description .owl-nav .owl-next {
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/de/Caret_right_font_awesome.svg");
+}
+.best_sellers .description .owl-dots .owl-dot span{
+    background-color: bisque;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 3px black;
+    margin-left: 10px;
+}
+.best_sellers .description .owl-dots .owl-dot.active span{
+    background-color: cornflowerblue;
+}
+.best_sellers .description .owl-dots {
+    position: absolute;
+    bottom: -75px;
+    left: 510px;
 }
