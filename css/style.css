@@ -3,31 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header .logo{
     position: absolute;
     left:calc(50% - 40px);
 }
-.container{
+header .container{
     max-width: 1064px;
     margin: auto;
     display: flex;
+    align-items: center;
+}
+.nav-mobile-menu{
     justify-content: space-between;
-    align-items: center;
-}
-.container nav ul{
     display: inline-flex;
+    width: 1064px;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    padding-top: 15px;
 }
-.container nav ul li{
+header .container nav ul{
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+header .container nav ul li{
     list-style: none;
     margin-left: 28px;
 }
-.container nav ul li:first-of-type{
+header .container nav ul li:first-of-type{
     margin-left: 0;
 }
-.container nav ul li a{
+header .container nav ul li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -35,18 +40,18 @@ header .logo{
     line-height: 26px;
     color: #1C1B1B;
 }
-.container #h_navigation{
+header .container #h_navigation{
     display: inline-flex;
     align-items: center;
 }
-.container #h_navigation li{
+header .container #h_navigation li{
     list-style: none;
     margin-left: 27px;
 }
-.container #h_navigation li a{
-    width: 100%;
+header .container #h_navigation li a{
     display: block;
 }
+
 
 /*Main banner*/
 
@@ -273,7 +278,311 @@ header .logo{
     padding-bottom: 51px;
 }
 .people_society .container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 131px;
+    max-width: 1164px;
+}
+.people_society .container img{
+    display: block;
+}
+.people_society .container article{
+    padding-top: 63px;
+    padding-bottom: 63px;
+    text-align: left;
+}
+.people_society .container article h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_society .container article p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+    width: 498px;
+}
+.people_society .container article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*Culture and Heritage*/
+
+.culture_heritage{
+    background: rgba(204, 204, 204, 0.6);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.culture_heritage .container {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1164px;
+}
+.culture_heritage .container img{
+    display: block;
+    margin-left: 50px;
+}
+.culture_heritage .container article{
+    padding-top: 63px;
+    padding-bottom: 29px;
+    text-align: right;
+}
+.culture_heritage .container article h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture_heritage .container article p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+    width: 513px;
+}
+.culture_heritage .container article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*Power and Politics*/
+.power_politics{
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.power_politics .container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1164px;
+    padding-right: 99px;
+    padding-left: 100px;
+}
+.power_politics .container img{
+    display: block;
+}
+.power_politics .container article{
+    padding-top: 63px;
+    padding-bottom: 62px;
+    text-align: left;
+}
+.power_politics .container article h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.power_politics .container article p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 39px;
+    width: 530px;
+}
+.power_politics .container article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*Unique Features*/
+
+.unique_features{
+    background-color: #FFFFFF;
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+.unique_features .container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.unique_features .container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+.unique_features .colors{
+    display: flex;
+    margin: auto;
+    max-width: 1088px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 52px;
+}
+.unique_features .colors article{
+    text-align: center;
+    width: 339px;
+    margin-bottom: 111px;
+}
+.unique_features .colors article img{
+    margin-bottom: 26px;
+}
+.unique_features .colors article p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.unique_features .voices{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 290px;
+}
+.unique_features .voices h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+/*Portrets*/
+
+.portrets{
+    background: #F0F0F0;
+    padding-bottom: 52px;
+}
+.portrets .container{
     max-width: 1164px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
+.portrets .container article{
+    text-align: center;
+    margin-left: 100px;
+    height: 100%;
+}
+.portrets .container article img{
+    width: 288px;
+    margin-bottom: 35px;
+}
+.portrets .container article h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+.portrets .container article p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.portrets .container article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+/*Keep in touch*/
+
+.touch{
+    padding-bottom: 88px;
+    padding-top: 79px;
+    background-color: #FFFFFF;
+}
+.touch .container{
+    margin: auto;
+    display: flex;
+    max-width: 570px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.touch .container h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.touch .container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.touch .sub_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 366px;
+    margin: auto;
+}
+.touch .center{
+    width: 100%;
+    max-width: 153px;
+    align-items: center;
+    padding-right: 6px;
+    box-sizing: border-box;
+    height: 39px;
+}
+

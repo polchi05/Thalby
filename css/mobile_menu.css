@@ -2,75 +2,7 @@
 /****************
       MENU
 ****************/
-header{
-    background-color: #FFFFFF;
-    height: 80px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-}
-.nav-mobile{
-    display: none;
-}
-.nav-mobile-menu {
-    visibility: hidden;
-    opacity: 0;
-    background: white;
-    width: 0px;
-    height: 100vh;
-    position: fixed;
-    overflow: hidden;
-    top:0;
-    padding-top:90px;
-    left:0;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    z-index: 999;
-    text-align:center;
-}
 
-.active.nav-mobile-menu {
-    visibility: visible;
-    opacity: 1;
-    width: 100vw;
-}
-
-.nav-mobile-menu ul{
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.nav-mobile-menu ul li{
-    white-space: nowrap;
-    list-style: none;
-    cursor: pointer;
-    margin-bottom: 10px;
-    font-size: 40px;
-}
-.nav-mobile-menu ul li a{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    color: #1C1B1B;
-}
-.nav-mobile-menu ul li a:nth-child(1){
-    margin-top: -50px;
-}
-.nav-mobile-menu #h_navigation{
-    display: inline-flex;
-    align-items: center;
-    margin-right: 20px;
-}
-.nav-mobile-menu #h_navigation li{
-    margin-left: 25px;
-}
-.nav-mobile-menu #h_navigation li a #inst{
-    width: 30px;
-    height: 30px;
-}
 
     /****************
          BUTTON
@@ -86,6 +18,7 @@ header{
     top:0;
     left:20px;
     z-index: 1000;
+    display: none;
 }
 
 #nav-mobile-bar-top {
