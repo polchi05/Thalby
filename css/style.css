@@ -429,7 +429,6 @@ header .container #h_navigation li a{
 .unique_features{
     background-color: #FFFFFF;
     padding-top: 190px;
-    padding-bottom: 290px;
 }
 .unique_features .container{
     display: flex;
@@ -491,17 +490,25 @@ header .container #h_navigation li a{
 .portrets{
     background: #F0F0F0;
     padding-bottom: 52px;
+    min-height: 480px;
+    position: relative;
 }
 .portrets .container{
-    max-width: 1164px;
+    max-width: 1064px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: -190px;
+    left: 150px;
 }
 .portrets .container article{
     text-align: center;
     margin-left: 100px;
     height: 100%;
+}
+.portrets .container article:first-of-type{
+    margin-left: 0;
 }
 .portrets .container article img{
     width: 288px;
@@ -586,3 +593,74 @@ header .container #h_navigation li a{
     height: 39px;
 }
 
+/*Footer*/
+
+footer{
+    background-color: #020202;
+    padding-top: 51px;
+    padding-bottom: 16px;
+}
+footer .container{
+    max-width: 1144px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .left{
+    display: grid;
+}
+footer .container .left a{
+    height: 41px;
+}
+footer .container .left a img{
+    margin-bottom: 37px;
+}
+footer .container .left ul{
+    display: inline-flex;
+}
+footer .container .left ul li{
+    margin-left: 22px;
+}
+footer .container .left ul li:first-of-type{
+    margin-left: 0;
+}
+footer .container .right{
+    display: flex;
+}
+footer .container .right ul{
+    min-width: 215px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+footer .right ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+footer .right ul li:first-of-type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+footer .right ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 107px;
+}
