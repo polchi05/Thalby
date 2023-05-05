@@ -1,0 +1,16 @@
+@media only screen and (max-width: 769px) {
+    .container nav ul li:first-of-type{
+        margin-left: 20px;
+    }
+    .container #h_navigation li:last-of-type{
+        margin-right: 10px;
+    }
+    .nav-mobile{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 429px) {
+    header .container{
+
+    }
+}

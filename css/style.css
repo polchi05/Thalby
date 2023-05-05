@@ -6,7 +6,6 @@
 header .logo{
     position: absolute;
     left:calc(50% - 40px);
-    top: 16px;
 }
 .container{
     max-width: 1064px;
@@ -150,6 +149,7 @@ header .logo{
 
 .best_sellers {
     padding-bottom: 189px;
+    background-color: #FFFFFF;
 }
 .best_sellers .container{
     max-width: 1064px;
@@ -264,4 +264,16 @@ header .logo{
     position: absolute;
     bottom: -75px;
     left: 510px;
+}
+
+/*People and Society*/
+.people_society{
+    background-color: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.people_society .container{
+    max-width: 1164px;
+    margin: auto;
+    display: flex;
 }
