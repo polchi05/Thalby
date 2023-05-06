@@ -69,7 +69,7 @@ header .container #h_navigation li a{
     max-width: 544px;
     height: 374px;
 }
-.main_banner .container h1{
+.main_banner .container article h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 60px;
@@ -78,7 +78,7 @@ header .container #h_navigation li a{
     margin-bottom: 46px;
     max-width: 534px;
 }
-.main_banner .container p{
+.main_banner .container article p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -87,7 +87,7 @@ header .container #h_navigation li a{
     max-width: 481px;
     margin-bottom: 26px;
 }
-.main_banner .container a{
+.main_banner .container article a{
     background: #000000;
     border: 1px solid #000000;
     border-radius: 100px;
