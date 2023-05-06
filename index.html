@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
-
 </head>
 <body>
 
@@ -230,21 +229,23 @@
     <section class="touch">
         <div class="container">
             <h3>Keep in touch</h3>
-            <p>Get our travel advice, global views and travel freebies in your inbox</p>
+            <p>Get our travel advice, global views and travel freebies in your<br>inbox</p>
         </div>
         <div class="sub_container">
-            <form class="center" name="contact_form" action="#" method="post">
-                <div>
-                    <input class="name" type="text" name="First Name" placeholder="First Name">
-                </div>
-                <div>
-                    <input class="name" type="text" name="Last Name" placeholder="Last Name">
-                </div>
-                <div>
-                    <input class="email" type="email" name="Email" placeholder="Email">
-                </div>
+            <form name="contact_form" action="#" method="post">
+                <input class="name" type="text" name="First Name" placeholder="First Name">
             </form>
-
+            <form name="contact_form" action="#" method="post">
+                <input class="name" type="text" name="Last Name" placeholder="Last Name">
+            </form>
+        </div>
+        <div class="email">
+            <form name="email" action="#" method="post">
+                <input type="email" name="Email" placeholder="Email">
+            </form>
+        </div>
+        <div class="sub">
+        <button type="submit">Subscribe</button>
         </div>
     </section>
 </main>

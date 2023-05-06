@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header .logo{
     position: absolute;
     left:calc(50% - 40px);
@@ -147,7 +146,6 @@ header .container #h_navigation li a{
     line-height: 23px;
     text-decoration: none;
     color: #000000;
-
 }
 
 /*Best sellers*/
@@ -374,6 +372,7 @@ header .container #h_navigation li a{
 }
 
 /*Power and Politics*/
+
 .power_politics{
     background: rgba(204, 204, 204, 0.3);
     padding-top: 76px;
@@ -577,20 +576,80 @@ header .container #h_navigation li a{
     color: #000000;
     margin-bottom: 26px;
 }
+
 .touch .sub_container{
+    max-width: 366px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 29px;
+}
+.touch .sub_container form{
+    max-width: 153px;
+    height: 39px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.touch .sub_container form .name{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A0A0A0;
+    box-sizing: border-box;
+    border: none;
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 8px;
+}
+.touch .email{
     max-width: 366px;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
-.touch .center{
+.touch .email form{
     width: 100%;
-    max-width: 153px;
-    align-items: center;
-    padding-right: 6px;
+    border: 1px solid #000000;
     box-sizing: border-box;
+    background-color: transparent;
     height: 39px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+.touch .email form input{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A0A0A0;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.touch .sub{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.touch .sub button{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px 23px 10px 23px;
+    width: 115px;
+    height: 33px;
 }
 
 /*Footer*/
