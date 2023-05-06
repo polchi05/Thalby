@@ -67,7 +67,209 @@
         align-items: center;
         justify-content: space-between;
     }
+    .main_banner{
+        position: inherit;
+    }
+    .main_banner .container{
+        display: block;
+    }
+    .main_banner .container img{
+        position: inherit;
+        margin-left: 85px;
+    }
+    .main_banner .container article{
+        margin-left: 120px;
+        text-align: center;
+    }
+    .main_banner .container article p{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .main_banner .container article a{
+        margin-left: -20px;
+    }
+    .best_sellers .description article{
+        display: inline-block;
+        margin-left: 200px;
+    }
+    .best_sellers .description article p{
+        margin-left: 35px;
+    }
+    .best_sellers .description article a{
+        margin-left: 32px;
+    }
+    .best_sellers .description .owl-nav .owl-prev{
+        left: 50px;
+    }
+    .best_sellers .description .owl-nav .owl-next{
+        right: 50px;
+    }
+    .best_sellers .description .owl-dots{
+        left: 250px;
+    }
+    .people_society{
+        padding-bottom: 0;
+    }
+    .people_society .container{
+        display: block;
+    }
+    .people_society .container img{
+        margin-left: 100px;
+    }
+    .people_society .container article{
+        text-align: center;
+        margin-left: 45px;
+    }
+    .culture_heritage{
+        padding-top: 0;
+    }
+    .culture_heritage .container{
+        display: block;
+    }
+    .culture_heritage .container img{
+        margin-left: 195px;
+    }
+    .culture_heritage .container article{
+        text-align: center;
+    }
+    .culture_heritage .container article h3{
+        margin-left: 20px;
+    }
+    .culture_heritage .container article p{
+        margin-left: 130px;
+    }
+    .power_politics{
+        padding-bottom: 0;
+    }
+    .power_politics .container{
+        display: block;
+    }
+    .power_politics .container img{
+        margin-left: 100px;
+    }
+    .power_politics .container article{
+        text-align: center;
+        margin-left: 25px;
+    }
+    .unique_features {
+        padding-top: 70px;
+    }
+    .unique_features .colors article{
+        margin-bottom: 80px;
+    }
+    .unique_features .voices{
+        padding-bottom: 60px;
+    }
+    .portrets{
+        position: inherit;
+        padding-top: 30px;
+        padding-bottom: 2px;
+    }
+    .portrets .container{
+        display: block;
+        position: inherit;
+    }
+    .portrets .container article{
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    footer .container .left{
+        margin-left: 30px;
+    }
+    footer .container .right ul{
+        min-width: 160px;
+        margin-left: 0;
+    }
+    footer p{
+        margin-right: 590px;
+    }
 }
 @media only screen and (max-width: 429px) {
-
+    .main_banner{
+        padding-bottom: 0;
+    }
+    .main_banner .container article{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .main_banner .container article p{
+        margin-left: 0;
+    }
+    .main_banner .container img{
+        margin-left: 10px;
+        width: 415px;
+    }
+    .guides{
+        padding-bottom: 57px;
+    }
+    .guides .container{
+        display: inline-block;
+    }
+    .best_sellers{
+        padding-bottom: 120px;
+    }
+    .best_sellers .description article{
+        display: inline-block;
+        margin-left: 35px;
+    }
+    .best_sellers .description .owl-nav .owl-prev{
+        left: 0;
+    }
+    .best_sellers .description .owl-nav .owl-next{
+        right: 0;
+    }
+    .best_sellers .description .owl-dots{
+        left: 80px;
+    }
+    .people_society .container img{
+        margin-left: -75px;
+    }
+    .people_society .container article p{
+        margin-left: -115px;
+        max-width: 375px;
+    }
+    .culture_heritage .container img{
+        margin-left: 25px;
+    }
+    .culture_heritage .container article p{
+        margin-left: 20px;
+        width: 400px;
+    }
+    .power_politics .container img{
+        margin-left: -75px;
+    }
+    .power_politics .container article h3{
+        margin-left: -5px;
+    }
+    .power_politics .container article p{
+        width: 400px;
+        margin-left: -110px;
+    }
+    .power_politics .container article a{
+        margin-left: -30px;
+    }
+    .unique_features .colors{
+        margin-left: 50px;
+    }
+    footer{
+        padding-top: 20px;
+    }
+    footer .container{
+        display: inline-block;
+    }
+    footer .container .left{
+        margin-left: 150px;
+    }
+    footer .container .left a{
+        margin-bottom: 25px;
+    }
+    footer .container .right{
+        margin-left: 32px;
+    }
+    footer .container .right ul{
+        margin-left: 40px;
+    }
+    footer p{
+        margin-right: 5px;
+    }
 }
